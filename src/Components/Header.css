@@ -1,0 +1,14 @@
+#header{
+    position: absolute;
+    z-index: 1;
+    background-color:black;
+}
+ul li:hover{
+    cursor: pointer;
+}
+@media screen and (max-width:576px) {
+    .nav-link{
+        display: none;
+    }
+    
+}

@@ -1,0 +1,62 @@
+.footer{
+    background-color: black;
+    padding-top: 3rem;
+    color: white;
+}
+ul li:not("span"){
+    color: gray;
+}
+ul li:hover{
+    color:red;
+}
+.first{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.second{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 2fr;
+ 
+}
+.third1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 2fr;
+}
+.third1 ul{
+    list-style: none;
+}
+.first ul li span,.second ul li span{
+    font-weight:600;
+}
+.first ul,.second ul{
+    list-style: none;
+}
+
+.icons .span{
+    display: block !important;
+    font-weight: 600;
+}
+.ii{
+    display: flex;
+    gap: 3rem;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+.fourth{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.fourth img{
+    width: 7rem;
+    height: 7rem;
+}
+.fourth p{
+    font-size:20px;
+    color: red;
+    font-weight: 900;
+    font-style: italic;
+}
+p{
+    text-align: center;
+}

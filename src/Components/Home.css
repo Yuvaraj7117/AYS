@@ -1,0 +1,61 @@
+#home{
+    width: 100vw;
+    height: 90vh;
+    background-image: url("../assets/wing1.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
+    color:#fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#primaryText{
+    font-size: 5em;
+    font-weight: 100;
+}
+#primaryText:hover{
+    transition: 0.3s;
+    cursor:default;
+}
+#secondaryText{
+   font-size: 2rem;
+   color: black !important;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1.5rem;
+}
+.cards:hover{
+    cursor: pointer;
+}
+.third{
+    width: 100vw;
+    height: 100vh;
+    background-color: red;
+    display: block !important;
+    
+}
+.carousel-content{
+position: absolute;
+bottom: 30%;
+/* left: 5%; */
+z-index: 20;
+color: white;
+opacity: 1 !important;
+text-shadow: 0 1px 2px rgba(0,0,0,.6);
+margin: 1rem;
+}
+.carousel-item img{
+   opacity: 0.8;
+   width: 100vw;
+   height: 100vh;
+}
+@media screen and (max-width:576px) {
+    .cards{
+        display: flex;
+        flex-direction: column;
+    }
+}
