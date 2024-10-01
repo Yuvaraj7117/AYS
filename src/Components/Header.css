@@ -1,14 +1,24 @@
-#header{
-    position: absolute;
-    z-index: 1;
-    background-color:black;
+.navbar{
+    background-color: black !important;
+    color: #fff !important;
 }
-ul li:hover{
-    cursor: pointer;
+.navbar-brand img{
+    width: 5rem;
+    height: 5rem;
 }
-@media screen and (max-width:576px) {
-    .nav-link{
-        display: none;
-    }
-    
+.menu img{
+    width: 1.7rem;
+    height: 1.7rem;
+
+}
+ul li a{
+    color: #fff !important;
+}
+
+.auth a{
+    font-size: 0.8rem !important;
+}
+svg{
+    font-size:1.4rem;
+    margin-right: 0.1rem;
 }

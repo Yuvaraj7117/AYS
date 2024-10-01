@@ -7,8 +7,8 @@ import russia from "../assets/russia.jpg";
 import { ReactCountryFlag } from "@fadi-ui/react-country-flag";
 function Home() {
   return (
-    <>
-      <section className="container-fluid" id="home">
+    <div>
+      <div className="container-fluid" id="home">
         <h1 id="primaryText" className="text-center">
           Discover the World with Our Flights
         </h1>
@@ -29,9 +29,9 @@ function Home() {
             Explore Now
           </button>
         </div>
-      </section>
+      </div>
       {/* ----------------------------------------------------- */}
-      <section className="container-fluid">
+      <div className="container-fluid">
         <h1 className="text-center my-5">Explore the World!🌍</h1>
         <div className="cards d-sm-flex flex-sm-column flex-sm-wrap d-md-grid d-lg-grid d-xl-grid">
           <div className="card">
@@ -83,11 +83,11 @@ function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </div>
 
       {/* ----------------------------------------------------------- */}
       <br />
-      <section className="third">
+      <div className="third">
         <div
           id="carouselExampleInterval"
           className="carousel slide"
@@ -122,8 +122,8 @@ function Home() {
             </div>
           </div>
         </div>
-      </section>
-    </>
+      </div>
+    </div>
   );
 }
 
